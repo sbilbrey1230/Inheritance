@@ -18,4 +18,5 @@ int Truck::gettowcapacity() const {
 void Truck::displayInfo() const {
 	Vehicle::displayInfo();
 	cout << "Towing capacity: " << towcapacity << endl;
+
 }
